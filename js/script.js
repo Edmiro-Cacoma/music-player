@@ -54,10 +54,10 @@ function playPause() {
   } else {
     if (isPlaying) {
       audio.pause();
-      playBtn.querySelector("img").src = "public/svg/pause.svg";
+      playBtn.querySelector("img").src = "public/svg/play_fill.svg";
     } else {
       audio.play();
-      playBtn.querySelector("img").src = "public/svg/play_fill.svg";
+      playBtn.querySelector("img").src = "public/svg/pause.svg";
     }
     isPlaying = !isPlaying;
   }
